@@ -21,8 +21,9 @@ export const Track: React.FC = () => {
     setResult(computed);
 
     // 2. Performance Optimized AI prompt simulation inside Concurrent Mode transition wrapper
-    startTransition(async () => {
-      const storyResult = await simulateAIServiceCall('story', computed);
+    const storyResult = await simulateAIServiceCall('story', computed);
+
+    startTransition(() => {
       setAiStory(storyResult);
     });
   };

@@ -24,7 +24,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, setCurrentPage }) =
           <span className="font-bold text-xl tracking-tight text-slate-900 dark:text-white">EcoTrace</span>
         </div>
         
-        <nav class="flex items-center gap-6" aria-label="Main Navigation">
+        <nav className="flex items-center gap-6" aria-label="Main Navigation">
           <button
             onClick={() => setCurrentPage('home')}
             className={`text-sm font-medium transition-colors focus:outline-none focus:underline ${

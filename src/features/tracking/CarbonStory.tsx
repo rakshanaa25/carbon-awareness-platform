@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card } from '../../components/UI/Card';
-import { Sparkles, HelpCircle } from 'lucide-react';
+import { Sparkles } from 'lucide-react';
 
 interface CarbonStoryProps {
   storyText: string;

@@ -2,11 +2,9 @@ import React from 'react';
 import { Card } from '../../components/UI/Card';
 import { CheckCircle2 } from 'lucide-react';
 
-interface ReductionPlanProps {
-  aiRecommendations?: string;
-}
 
-export const ReductionPlan: React.FC<ReductionPlanProps> = ({ aiRecommendations }) => {
+
+export const ReductionPlan: React.FC = () => {
   const defaults = [
     { tier: "Easy Actions", metric: "~150 kg annual save", plan: "De-energize phantom residential power connections and use smart power strips to handle standby loads." },
     { tier: "Moderate Actions", metric: "~480 kg annual save", plan: "Shift local multi-passenger transit routines towards localized clean infrastructure networks or group errands." },

@@ -52,7 +52,7 @@ export const DashboardCharts: React.FC<DashboardChartsProps> = ({ breakdown }) =
               <XAxis dataKey="month" stroke="#64748b" fontSize={11} tickLine={false} />
               <YAxis stroke="#64748b" fontSize={11} tickLine={false} />
               <Tooltip contentStyle={{ backgroundColor: '#1e293b', border: 'none', borderRadius: '8px', color: '#fff' }} />
-              <Legend wrapperStyle={{ fontSize: '12px', pt: '10px' }} />
+              <Legend wrapperStyle={{ fontSize: '12px', paddingTop: '10px' }} />
               <Line type="monotone" dataKey="Current" stroke="#ef4444" strokeWidth={2.5} activeDot={{ r: 6 }} name="Current Vector" />
               <Line type="monotone" dataKey="Target" stroke="#22c55e" strokeWidth={2.5} strokeDasharray="5 5" name="Target Matrix" />
             </LineChart>

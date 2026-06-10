@@ -1,5 +1,4 @@
 import React from 'react';
-import { useForm } from 'react-hook-form'; // Simulating standard handler validation hooks patterns
 import { AssessmentInput, AssessmentSchema } from '../../types';
 import { Button } from '../../components/UI/Button';
 import { Card } from '../../components/UI/Card';
