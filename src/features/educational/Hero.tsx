@@ -39,7 +39,8 @@ export const Hero: React.FC<HeroProps> = ({ onStart }) => {
         </div>
       </div>
       {/* Decorative Radial Background Vector Mesh */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(34,197,94,0.08),transparent_45%)]" pointerEvents="none" />
+      {/* Corrected: Using Tailwind's class instead of an invalid JSX property */}
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(34,197,94,0.08),transparent_45%)] pointer-events-none" />
     </section>
   );
 };
