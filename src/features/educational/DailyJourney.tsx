@@ -98,4 +98,4 @@ export const DailyJourney: React.FC = () => {
       </div>
     </section>
   );
-};
+};  
